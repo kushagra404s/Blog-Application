@@ -20,3 +20,5 @@ app.get('/',(req,res)=>{
 app.use('/user',userRoute);
 
 app.listen(PORT,()=>console.log(`Server is running on port ${PORT}`));
+
+
